@@ -31,3 +31,13 @@ hello-java-maven/
 Build → Invoke top-level Maven targets → Goals: clean package.
 
 Ran the job and verified output.
+
+
+## Jenkins Build Result
+
+The job executed successfully, and Maven created a JAR file:
+
+[INFO] Building jar: /var/jenkins_home/workspace/hello-java-maven-job/target/hello-1.0.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
