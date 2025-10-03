@@ -13,3 +13,21 @@ hello-java-maven/
      └── main/
          └── java/
              └── HelloWorld.java
+             
+##⚙️ Steps Performed
+
+1.Created a GitHub repository hello-java-maven.
+
+2.Added HelloWorld.java and pom.xml.
+
+3.Started Jenkins (docker run -p 8080:8080 jenkins/jenkins:lts).
+
+4.Configured Maven under Manage Jenkins → Tools.
+
+5.Created a Freestyle Job:
+
+6.Source Code Management → Git repo URL.
+
+Build → Invoke top-level Maven targets → Goals: clean package.
+
+Ran the job and verified output.
